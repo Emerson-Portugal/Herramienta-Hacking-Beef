@@ -15,7 +15,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 ### PASO 3
-> Vamos a poner el siguiente comando para estar en modo ROOT
+> Vamos a poner el siguiente comando para estar en modo ROOT y de esta manera instalar Beef
 ```
 sudo su
 ```
@@ -25,29 +25,29 @@ sudo su
 ### PASO 1
 > Vamos abrir una terminal y vamos  poner el siguiente comando
 ```
-sudo git clone https://github.com/beefproject/beef.git
+git clone https://github.com/beefproject/beef.git
 ```
 ### PASO 2
-> Vamos a poner el siguiente comando
+> Vamos a ingresar a la carpeta Beef
 ```
 cd beef
 ```
 ### PASO 3
-> Vamos a poner el siguiente comando para estar en modo ROOT
+> Vamos a instalar Beef
 ```
-sudo ./install
+./install
 ```
 ### PASO 3
-> Vamos a poner el siguiente comando para estar en modo ROOT
+> Vamos a poner el siguiente comando para modificar 'config.yaml'
 ```
-sudo namo config.yaml
+namo config.yaml
 ```
-> Vamos a poner el siguiente comando para estar en modo ROOT
+> Vamos a modificar el password del archivo 'config.yaml'
 ```
 passwd = 12345
 ```
 ### PASO 3
-> Vamos a poner el siguiente comando para estar en modo ROOT
+> Vamos a ejecutar Beef
 ```
-sudo ./beef
+./beef
 ```
