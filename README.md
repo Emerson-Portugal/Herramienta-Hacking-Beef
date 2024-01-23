@@ -7,7 +7,7 @@ Te voy a enseñar como instalar BeeF, es una herramienta que te permite optener 
 ### PASO 1
 > Vamos abrir una terminal y vamos  poner el siguiente comando
 ```
-sudo apt-get update
+sudo su
 ```
 ### PASO 2
 > Vamos a poner el siguiente comando
